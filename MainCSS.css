@@ -1,0 +1,130 @@
+/* Shared */
+.global{
+    min-height: 100vh;
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+body{
+    color:rgba(206, 1, 1, 0.781);
+    background: rgb(99,122,127);
+    background-image: url(images/banner.jpg);
+    margin-left:auto;
+    margin-right: auto;
+    text-align:left;
+    font-family:Georgia,"Times New Roman",Times,serif;    
+}
+
+/* Main.html */
+
+    /* Table pour alignement*/
+table{
+    width: auto;
+    height:auto;
+}
+
+    /* barre latérale bas gauche*/
+.snav {
+    width:800px;
+    height:30px;
+    position: fixed;
+    z-index:1;
+    top: 97%;
+    background-image:url(images/banner.jpg);
+    padding-left: 5px;
+    overflow-x:visible;
+}
+    /*barre latérale liens*/
+.snav a{
+    font-size:20px;
+    float:left;
+    display:block;
+    padding-right:5px;
+}
+
+.snav a:hover{
+    padding:2px;
+    color:chocolate;
+    background-color: burlywood;
+}
+
+    /* fieldset utilisé en tant qu'en-tête*/
+fieldset{
+    text-align: right;
+    font-weight: bolder;
+    background-image: url(images/banner.jpg), url(images/pexels-pixabay-160709.jpg);
+    background-size: 100% 20%, 100% 200%;
+    background-repeat: no-repeat;
+    width:772px;
+    height:100px;
+    color:rgb(255, 255, 255);
+
+}
+
+    /* Image à droite */
+
+.raton-premier{
+    width:auto;
+    text-align:right;
+    border: double;
+    color:white;
+    width:390px;
+    height:auto;
+    float:right;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+    /* Image à gauche*/
+.raton-second{
+    width:auto;
+    text-align:right;
+    border: double;
+    color:white;
+    width:395px;
+    height:auto;
+    float:left;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+    /* Tabulations */
+span{
+    margin-left:50px;
+}
+
+    /* Paramètre des liens sur la page*/
+a:link{
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited{
+    color:orange;
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+a:active{
+    color:rgb(160, 99, 18);
+}
+
+footer{
+    min-height: 50px;
+}
+
+    /* liens Footer*/
+.footerA{
+    float:right;    /* alignement à droite*/
+}
+
+/* Page explications.html */
+.exp{
+    color:aquamarine;
+}
+
+.h1Ex{
+    color:red
+}
